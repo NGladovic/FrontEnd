@@ -1,0 +1,28 @@
+table.students, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table.students {
+    width: 500px;
+}
+
+table.students thead tr th {
+    background-color: gray;
+}
+
+table.students tbody tr td {
+    border-bottom: 3px solid lightblue;
+
+    /*border-bottom-color: #4cf092;
+     border-bottom-width: 5px;
+     border-bottom-style: dashed;*/
+}
+
+table.students tbody tr:last-child {
+    color: #fd89d7;
+}
+
+table.students tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}

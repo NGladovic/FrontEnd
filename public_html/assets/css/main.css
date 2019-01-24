@@ -1,0 +1,49 @@
+
+
+/* 0. GENERAL */
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Helvetica, sans-serif, serif;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+}
+
+h2 {
+    color: yellow;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* mouse hover over every link */
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+
+
+
+

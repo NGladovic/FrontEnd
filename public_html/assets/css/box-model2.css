@@ -1,0 +1,16 @@
+#div1, #div2  {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 30px;
+}
+
+#div1 {
+    box-sizing: content-box;
+    border: 5px solid green;
+}
+
+#div2 {
+    box-sizing: border-box;
+    border: 5px solid blue;
+}

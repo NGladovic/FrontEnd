@@ -1,0 +1,75 @@
+
+
+header {
+    background-color: #80fef8;
+    color: pink;
+    padding: 20px;
+    text-align: right;
+}
+
+nav {
+    background-color: #a2b7d8;
+    
+}
+
+nav ul {
+    padding-left: 0px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    
+    /* Umesto li stilizujemo a tag */
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li a:hover { 
+    background-color: #80fef8;
+    color: red;
+}
+
+/*Brišemo jer ne koristimo div sa id-jem main*/
+/*#main {
+    background-color: #fd89d7;
+}*/
+
+article {
+    /*background-color: #fcfe80;*/
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 30px;
+}
+
+aside {
+    /*background-color: #ccc;*/
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    padding: 30px;
+}
+
+footer {
+    background-color: #80fef8;
+    color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
